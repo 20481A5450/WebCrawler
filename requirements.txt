@@ -1,2 +1,4 @@
+#python==3.9.0
 cryptography==42.0.5
+pyopenssl==22.1.0
 Scrapy==2.11.1
