@@ -5,22 +5,16 @@ Job Type: Job type: Full-time
 Job Mode: Job mode: On-site
 Job ID: Job requisition id: [Not provided]
 Years of Experience: Years of experience: 0-2 years
+Job Link: https://www.linkedin.com/jobs/view/3901263877/?src=takeofftalent.com
 
-Position: Position: Data Engineering Analyst
-Company: Company: Metyis
-Location: Location: Bangalore
-Job Type: Job type: Junior level - Full time
-Job Mode: Job mode: Onsite
-Job ID: Job requisition id: NA
-Years of Experience: Years of experience: 1 to 3 years
-
-Position: Position: Data Scientist
-Company: Company: Micron Technology, Inc.
-Location: Location: Hyderabad, Telangana, India
-Job Type: Job type: Full-time
-Job Mode: Job mode: On-site
-Job ID: Job requisition id: JR52043
-Years of Experience: Years of experience: 0 years
+Position: None
+Company: Company:
+Location: Location:
+Job Type: Job type:
+Job Mode: Job mode:
+Job ID: Job requisition id:
+Years of Experience: Years of experience:
+Job Link: https://portal.acr.iitbombay.org/job-listing/548394312591638013?src=takeofftalent.com
 
 Position: Position: Project SE - Data Analyst
 Company: Company:
@@ -29,46 +23,16 @@ Job Type: None
 Job Mode: None
 Job ID: None
 Years of Experience: None
+Job Link: https://portal.acr.iitbombay.org/job-listing/548380451096388329?src=takeofftalent.com
 
-Position: Position: Data Analyst/Data Engineer
-Company: Company: PHINIA
-Location: Location: Bengaluru (Brigade Tech Gardens) - India
-Job Type: Job type: Full time
-Job Mode: Job mode:Hybrid
-Job ID: Job requisition id: R2024-0067
-Years of Experience: Years of experience: 6 months + 
-
-Position: Position: Data Analyst
-Company: Company: SUN Mobility
-Location: Location: Bengaluru, Karnataka, India
+Position: Position: Data Scientist
+Company: Company: Micron Technology, Inc.
+Location: Location: Hyderabad, Telangana, India
 Job Type: Job type: Full-time
 Job Mode: Job mode: On-site
-Job ID: Job requisition id: NA
-Years of Experience: Years of experience: 2-3 years
-
-Position: None
-Company: Company:
-Location: Location:
-Job Type: Job type:
-Job Mode: Job mode:
-Job ID: Job requisition id:
-Years of Experience: Years of experience:
-
-Position: Position: Business Analytics Analyst
-Company: Company: Citigroup Inc.
-Location: Location: Pune, India
-Job Type: None
-Job Mode: None
-Job ID: None
-Years of Experience: None
-
-Position: None
-Company: Company:
-Location: Location:
-Job Type: Job type:
-Job Mode: Job mode:
-Job ID: Job requisition id:
-Years of Experience: Years of experience:
+Job ID: Job requisition id: JR52043
+Years of Experience: Years of experience: 0 years
+Job Link: https://careers.micron.com/careers/job/21810167?src=JB-12600&src=takeofftalent
 
 Position: Position: CRM Analyst
 Company: Company: Taboola
@@ -77,4 +41,50 @@ Job Type: Job type: Full-time
 Job Mode: Job mode: On-site
 Job ID: Job requisition id: TABCRM0424
 Years of Experience: Years of experience: 2+ years
+Job Link: https://www.taboola.com/careers/job/crm-analyst?src=takeofftalent.com
+
+Position: Position: Data Engineering Analyst
+Company: Company: Metyis
+Location: Location: Bangalore
+Job Type: Job type: Junior level - Full time
+Job Mode: Job mode: Onsite
+Job ID: Job requisition id: NA
+Years of Experience: Years of experience: 1 to 3 years
+Job Link: https://metyis.com/job/data-engineering-analyst-junior-bangalore?source=takeofftalent.com
+
+Position: Position: Data Analyst
+Company: Company: SUN Mobility
+Location: Location: Bengaluru, Karnataka, India
+Job Type: Job type: Full-time
+Job Mode: Job mode: On-site
+Job ID: Job requisition id: NA
+Years of Experience: Years of experience: 2-3 years
+Job Link: https://www.linkedin.com/jobs/view/3890768969/?src=takeofftalent.com
+
+Position: Position: Data Analyst/Data Engineer
+Company: Company: PHINIA
+Location: Location: Bengaluru (Brigade Tech Gardens) - India
+Job Type: Job type: Full time
+Job Mode: Job mode:Hybrid
+Job ID: Job requisition id: R2024-0067
+Years of Experience: Years of experience: 6 months + 
+Job Link: https://phinia.wd5.myworkdayjobs.com/PHINIA_Careers/job/Bengaluru-Brigade-Tech-Gardens---India/Data-Analyst-Data-Engineer_R2024-0067?source=takeofftalent.com
+
+Position: Position: Business Analytics Analyst
+Company: Company: Citigroup Inc.
+Location: Location: Pune, India
+Job Type: None
+Job Mode: None
+Job ID: None
+Years of Experience: None
+Job Link: https://jobs.citi.com/job/-/-/287/63060527568?utm_term=takeofftalent&ss=takeofftalent&utm_campaign=takeofftalent&utm_medium=takeofftalent&source=takeofftalent&utm_source=takeofftalent.com&utm_content=takeofftalent.com
+
+Position: None
+Company: Company:
+Location: Location:
+Job Type: Job type:
+Job Mode: Job mode:
+Job ID: Job requisition id:
+Years of Experience: Years of experience:
+Job Link: https://careers.adobe.com/us/en/job/ADOBUSR144292EXTERNALENUS/Data-Science-Engineer?utm_medium=takeofftalent&source=takeofftalent&utm_source=takeofftalent
 

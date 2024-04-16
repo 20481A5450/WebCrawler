@@ -38,6 +38,8 @@ class JobSpider(scrapy.Spider):
         job_details['job_mode'] = response.xpath('//h3[contains(text(), "Job mode:")]/text()').get()
         job_details['job_id'] = response.xpath('//h3[contains(text(), "Job requisition id:")]/text()').get()
         job_details['years_of_experience'] = response.xpath('//h3[contains(text(), "Years of experience:")]/text()').get()
+        job_details['job_link'] = response.xpath('//*[@id="overlay-content"]/p[2]/a/@href').get()
+
 
         # Print the job details to the console (for demonstration)
         print(f"Position: {job_details['position']}")
@@ -47,6 +49,7 @@ class JobSpider(scrapy.Spider):
         print(f"Job Mode: {job_details['job_mode']}")
         print(f"Job ID: {job_details['job_id']}")
         print(f"Years of Experience: {job_details['years_of_experience']}")
+        print(f"Job Link: {job_details['job_link']}")
 
         print("\n") # Adds a blank line for readability
 
@@ -59,6 +62,7 @@ class JobSpider(scrapy.Spider):
             file.write(f"Job Mode: {job_details['job_mode']}\n")
             file.write(f"Job ID: {job_details['job_id']}\n")
             file.write(f"Years of Experience: {job_details['years_of_experience']}\n")
+            file.write(f"Job Link: {job_details['job_link']}\n")
             file.write("\n")
         
         # Yield job details for further processing (optional)
