@@ -1,51 +1,3 @@
-Position: Applied Data Scientist
-Company: Tesco Bengaluru
-Location: Bengaluru, Karnataka, India
-Job Type: Full-time
-Job Mode: On-site
-Job ID: [Not provided]
-Years of Experience: 0-2 years
-
-Position: Data Analyst/Data Engineer
-Company: PHINIA
-Location: Bengaluru (Brigade Tech Gardens) - India
-Job Type: Full time
-Job Mode: Hybrid
-Job ID: R2024-0067
-Years of Experience: 6 months +
-
-Position: CRM Analyst
-Company: Taboola
-Location: Gurugram, India
-Job Type: Full-time
-Job Mode: On-site
-Job ID: TABCRM0424
-Years of Experience: 2+ years
-
-Position: Data Scientist
-Company: Micron Technology, Inc.
-Location: Hyderabad, Telangana, India
-Job Type: Full-time
-Job Mode: On-site
-Job ID: JR52043
-Years of Experience: 0 years
-
-Position: Data Engineering Analyst
-Company: Metyis
-Location: Bangalore
-Job Type: Junior level - Full time
-Job Mode: Onsite
-Job ID: NA
-Years of Experience: 1 to 3 years
-
-Position: Data Analyst
-Company: SUN Mobility
-Location: Bengaluru, Karnataka, India
-Job Type: Full-time
-Job Mode: On-site
-Job ID: NA
-Years of Experience: 2-3 years
-
 Position: Position: Applied Data Scientist
 Company: Company: Tesco Bengaluru
 Location: Location: Bengaluru, Karnataka, India
@@ -53,4 +5,76 @@ Job Type: Job type: Full-time
 Job Mode: Job mode: On-site
 Job ID: Job requisition id: [Not provided]
 Years of Experience: Years of experience: 0-2 years
+
+Position: Position: Data Engineering Analyst
+Company: Company: Metyis
+Location: Location: Bangalore
+Job Type: Job type: Junior level - Full time
+Job Mode: Job mode: Onsite
+Job ID: Job requisition id: NA
+Years of Experience: Years of experience: 1 to 3 years
+
+Position: Position: Data Scientist
+Company: Company: Micron Technology, Inc.
+Location: Location: Hyderabad, Telangana, India
+Job Type: Job type: Full-time
+Job Mode: Job mode: On-site
+Job ID: Job requisition id: JR52043
+Years of Experience: Years of experience: 0 years
+
+Position: Position: Project SE - Data Analyst
+Company: Company:
+Location: Location:
+Job Type: None
+Job Mode: None
+Job ID: None
+Years of Experience: None
+
+Position: Position: Data Analyst/Data Engineer
+Company: Company: PHINIA
+Location: Location: Bengaluru (Brigade Tech Gardens) - India
+Job Type: Job type: Full time
+Job Mode: Job mode:Hybrid
+Job ID: Job requisition id: R2024-0067
+Years of Experience: Years of experience: 6 months + 
+
+Position: Position: Data Analyst
+Company: Company: SUN Mobility
+Location: Location: Bengaluru, Karnataka, India
+Job Type: Job type: Full-time
+Job Mode: Job mode: On-site
+Job ID: Job requisition id: NA
+Years of Experience: Years of experience: 2-3 years
+
+Position: None
+Company: Company:
+Location: Location:
+Job Type: Job type:
+Job Mode: Job mode:
+Job ID: Job requisition id:
+Years of Experience: Years of experience:
+
+Position: Position: Business Analytics Analyst
+Company: Company: Citigroup Inc.
+Location: Location: Pune, India
+Job Type: None
+Job Mode: None
+Job ID: None
+Years of Experience: None
+
+Position: None
+Company: Company:
+Location: Location:
+Job Type: Job type:
+Job Mode: Job mode:
+Job ID: Job requisition id:
+Years of Experience: Years of experience:
+
+Position: Position: CRM Analyst
+Company: Company: Taboola
+Location: Location: Gurugram, India
+Job Type: Job type: Full-time
+Job Mode: Job mode: On-site
+Job ID: Job requisition id: TABCRM0424
+Years of Experience: Years of experience: 2+ years
 
