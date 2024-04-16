@@ -3,9 +3,7 @@
 | Position        | Company                | Location                 | Job type  | Job mode | Job requisition id | Years of experience | Job link |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | Position: Applied Data Scientist | Company: Tesco Bengaluru | Location: Bengaluru, Karnataka, India | Job type: Full-time | Job mode: On-site | Job requisition id: [Not provided] | Years of experience: 0-2 years | https://www.linkedin.com/jobs/view/3901263877/?src=takeofftalent.com |
-|-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | Position: Data Scientist | Company: Micron Technology, Inc. | Location: Hyderabad, Telangana, India | Job type: Full-time | Job mode: On-site | Job requisition id: JR52043 | Years of experience: 0 years | https://careers.micron.com/careers/job/21810167?src=JB-12600&src=takeofftalent |
-|-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | Position: Business Analytics Analyst | Company: Citigroup Inc. | Location: Pune, India | None | None | None | None | https://jobs.citi.com/job/-/-/287/63060527568?utm_term=takeofftalent&ss=takeofftalent&utm_campaign=takeofftalent&utm_medium=takeofftalent&source=takeofftalent&utm_source=takeofftalent.com&utm_content=takeofftalent.com |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | Position: Data Engineering Analyst | Company: Metyis | Location: Bangalore | Job type: Junior level - Full time | Job mode: Onsite | Job requisition id: NA | Years of experience: 1 to 3 years | https://metyis.com/job/data-engineering-analyst-junior-bangalore?source=takeofftalent.com |
