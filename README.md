@@ -2,7 +2,6 @@
 
 | Position        | Company                | Location                 | Job type  | Job mode | Job requisition id | Years of experience | Job link |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
-
 |  Applied Data Scientist |  Tesco Bengaluru |  Bengaluru, Karnataka, India |  Full-time |  On-site |  [Not provided] |  0-2 years | https://www.linkedin.com/jobs/view/3901263877/?src=takeofftalent.com |
 |  Data Scientist |  Micron Technology, Inc. |  Hyderabad, Telangana, India |  Full-time |  On-site |  JR52043 |  0 years | https://careers.micron.com/careers/job/21810167?src=JB-12600&src=takeofftalent |
 |  CRM Analyst |  Taboola |  Gurugram, India |  Full-time |  On-site |  TABCRM0424 |  2+ years | https://www.taboola.com/careers/job/crm-analyst?src=takeofftalent.com |
