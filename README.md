@@ -3,7 +3,7 @@
 | Position        | Company                | Location                 | Job type  | Job mode | Job requisition id | Years of experience | Job link |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | Position: Applied Data Scientist | Company: Tesco Bengaluru | Location: Bengaluru, Karnataka, India | Job type: Full-time | Job mode: On-site | Job requisition id: [Not provided] | Years of experience: 0-2 years | https://www.linkedin.com/jobs/view/3901263877/?src=takeofftalent.com |
-|-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
+
 | Position: Data Scientist | Company: Micron Technology, Inc. | Location: Hyderabad, Telangana, India | Job type: Full-time | Job mode: On-site | Job requisition id: JR52043 | Years of experience: 0 years | https://careers.micron.com/careers/job/21810167?src=JB-12600&src=takeofftalent |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
 | None | Company: | Location: | Job type: | Job mode: | Job requisition id: | Years of experience: | https://portal.acr.iitbombay.org/job-listing/548394312591638013?src=takeofftalent.com |
