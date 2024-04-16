@@ -1,0 +1,56 @@
+Position: Applied Data Scientist
+Company: Tesco Bengaluru
+Location: Bengaluru, Karnataka, India
+Job Type: Full-time
+Job Mode: On-site
+Job ID: [Not provided]
+Years of Experience: 0-2 years
+
+Position: Data Analyst/Data Engineer
+Company: PHINIA
+Location: Bengaluru (Brigade Tech Gardens) - India
+Job Type: Full time
+Job Mode: Hybrid
+Job ID: R2024-0067
+Years of Experience: 6 months +
+
+Position: CRM Analyst
+Company: Taboola
+Location: Gurugram, India
+Job Type: Full-time
+Job Mode: On-site
+Job ID: TABCRM0424
+Years of Experience: 2+ years
+
+Position: Data Scientist
+Company: Micron Technology, Inc.
+Location: Hyderabad, Telangana, India
+Job Type: Full-time
+Job Mode: On-site
+Job ID: JR52043
+Years of Experience: 0 years
+
+Position: Data Engineering Analyst
+Company: Metyis
+Location: Bangalore
+Job Type: Junior level - Full time
+Job Mode: Onsite
+Job ID: NA
+Years of Experience: 1 to 3 years
+
+Position: Data Analyst
+Company: SUN Mobility
+Location: Bengaluru, Karnataka, India
+Job Type: Full-time
+Job Mode: On-site
+Job ID: NA
+Years of Experience: 2-3 years
+
+Position: Position: Applied Data Scientist
+Company: Company: Tesco Bengaluru
+Location: Location: Bengaluru, Karnataka, India
+Job Type: Job type: Full-time
+Job Mode: Job mode: On-site
+Job ID: Job requisition id: [Not provided]
+Years of Experience: Years of experience: 0-2 years
+
