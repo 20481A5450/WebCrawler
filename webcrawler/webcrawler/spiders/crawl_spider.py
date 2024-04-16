@@ -1,7 +1,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-
+import logging
 # class CustomSpider(CrawlSpider):
 #     name = "crawler"
 #     allowed_domains = ["takeofftalent.com"]
@@ -31,14 +31,14 @@ class JobSpider(scrapy.Spider):
         job_details = {}
 
         # Scrape the required information from the job detail page using CSS or XPath selectors
-        job_details['position'] = response.xpath('//h3[contains(text(), "Position:")]/text()').get()
-        job_details['company'] = response.xpath('//h3[contains(text(), "Company:")]/text()').get()
-        job_details['location'] = response.xpath('//h3[contains(text(), "Location:")]/text()').get()
-        job_details['job_type'] = response.xpath('//h3[contains(text(), "Job type:")]/text()').get()
-        job_details['job_mode'] = response.xpath('//h3[contains(text(), "Job mode:")]/text()').get()
-        job_details['job_id'] = response.xpath('//h3[contains(text(), "Job requisition id:")]/text()').get()
-        job_details['years_of_experience'] = response.xpath('//h3[contains(text(), "Years of experience:")]/text()').get()
-        job_details['job_link'] = response.xpath('//*[@id="overlay-content"]/p[2]/a/@href').get()
+        job_details['position'] = response.xpath('//h3[contains(text(), "Position:")]/text()').get().replace('Position:', '')
+        job_details['company'] = response.xpath('//h3[contains(text(), "Company:")]/text()').get().replace('Company:', '')
+        job_details['location'] = response.xpath('//h3[contains(text(), "Location:")]/text()').get().replace('Location:', '')
+        job_details['job_type'] = response.xpath('//h3[contains(text(), "Job type:")]/text()').get().replace('Job type:', '')
+        job_details['job_mode'] = response.xpath('//h3[contains(text(), "Job mode:")]/text()').get().replace('Job mode:', '')
+        job_details['job_id'] = response.xpath('//h3[contains(text(), "Job requisition id:")]/text()').get().replace('Job requisition id:', '')
+        job_details['years_of_experience'] = response.xpath('//h3[contains(text(), "Years of experience:")]/text()').get().replace('Years of experience:', '')
+        job_details['job_link'] = response.xpath('//*[@id="overlay-content"]/p[2]/a/@href').get().replace('Job requisition id:', '')
 
 
         # Print the job details to the console (for demonstration)
@@ -52,18 +52,19 @@ class JobSpider(scrapy.Spider):
         print(f"Job Link: {job_details['job_link']}")
 
         print("\n") # Adds a blank line for readability
+        # File path
+        fp = "C:/Users/shaik/Desktop/Projects Workspace/WebCrawler/README.md"
 
-        # Save the job details to a file (optional)
-        with open('job_details.txt', 'a') as file:
-            file.write(f"Position: {job_details['position']}\n")
-            file.write(f"Company: {job_details['company']}\n")
-            file.write(f"Location: {job_details['location']}\n")
-            file.write(f"Job Type: {job_details['job_type']}\n")
-            file.write(f"Job Mode: {job_details['job_mode']}\n")
-            file.write(f"Job ID: {job_details['job_id']}\n")
-            file.write(f"Years of Experience: {job_details['years_of_experience']}\n")
-            file.write(f"Job Link: {job_details['job_link']}\n")
-            file.write("\n")
-        
-        # Yield job details for further processing (optional)
+        # Open the file in append mode
+        try:
+            with open(fp, 'a') as file:
+                # Write job details to file
+                data_row = (f"| {job_details['position']} | {job_details['company']} | {job_details['location']} | "
+                        f"{job_details['job_type']} | {job_details['job_mode']} | "
+                        f"{job_details['job_id']} | {job_details['years_of_experience']} | {job_details['job_link']} |")
+                file.write(data_row + "\n")
+        except Exception as e:
+            logging.error(f"Error writing to file: {e}")
+
+        # Yield job details for further processing
         yield job_details
