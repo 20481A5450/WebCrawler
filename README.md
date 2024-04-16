@@ -2,7 +2,6 @@
 
 | Position        | Company                | Location                 | Job type  | Job mode | Job requisition id | Years of experience | Job link |
 |-----------------|------------------------|---------------------------|-----------|----------|--------------------|---------------------|----------|
-
 | Position: Applied Data Scientist | Company: Tesco Bengaluru | Location: Bengaluru, Karnataka, India | Job type: Full-time | Job mode: On-site | Job requisition id: [Not provided] | Years of experience: 0-2 years | https://www.linkedin.com/jobs/view/3901263877/?src=takeofftalent.com |
 | Position: Data Engineering Analyst | Company: Metyis | Location: Bangalore | Job type: Junior level - Full time | Job mode: Onsite | Job requisition id: NA | Years of experience: 1 to 3 years | https://metyis.com/job/data-engineering-analyst-junior-bangalore?source=takeofftalent.com |
 | Position: Project SE - Data Analyst | Company: | Location: | None | None | None | None | https://portal.acr.iitbombay.org/job-listing/548380451096388329?src=takeofftalent.com |
