@@ -31,15 +31,61 @@ class JobSpider(scrapy.Spider):
         job_details = {}
 
         # Scrape the required information from the job detail page using CSS or XPath selectors
-        job_details['position'] = response.xpath('//h3[contains(text(), "Position:")]/text()').get().replace('Position:', '')
-        job_details['company'] = response.xpath('//h3[contains(text(), "Company:")]/text()').get().replace('Company:', '')
-        job_details['location'] = response.xpath('//h3[contains(text(), "Location:")]/text()').get().replace('Location:', '')
-        job_details['job_type'] = response.xpath('//h3[contains(text(), "Job type:")]/text()').get().replace('Job type:', '')
-        job_details['job_mode'] = response.xpath('//h3[contains(text(), "Job mode:")]/text()').get().replace('Job mode:', '')
-        job_details['job_id'] = response.xpath('//h3[contains(text(), "Job requisition id:")]/text()').get().replace('Job requisition id:', '')
-        job_details['years_of_experience'] = response.xpath('//h3[contains(text(), "Years of experience:")]/text()').get().replace('Years of experience:', '')
-        job_details['job_link'] = response.xpath('//*[@id="overlay-content"]/p[2]/a/@href').get().replace('Job requisition id:', '')
+        # Position
+        position = response.xpath('//h3[contains(text(), "Position:")]/text()').get()
+        if position:
+            job_details['position'] = position.replace('Position:', '').strip()
+        else:
+            job_details['position'] = ''
 
+        # Company
+        company = response.xpath('//h3[contains(text(), "Company:")]/text()').get()
+        if company:
+            job_details['company'] = company.replace('Company:', '').strip()
+        else:
+            job_details['company'] = ''
+
+        # Location
+        location = response.xpath('//h3[contains(text(), "Location:")]/text()').get()
+        if location:
+            job_details['location'] = location.replace('Location:', '').strip()
+        else:
+            job_details['location'] = ''
+
+        # Job Type
+        job_type = response.xpath('//h3[contains(text(), "Job type:")]/text()').get()
+        if job_type:
+            job_details['job_type'] = job_type.replace('Job type:', '').strip()
+        else:
+            job_details['job_type'] = ''
+
+        # Job Mode
+        job_mode = response.xpath('//h3[contains(text(), "Job mode:")]/text()').get()
+        if job_mode:
+            job_details['job_mode'] = job_mode.replace('Job mode:', '').strip()
+        else:
+            job_details['job_mode'] = ''
+
+        # Job Requisition ID
+        job_id = response.xpath('//h3[contains(text(), "Job requisition id:")]/text()').get()
+        if job_id:
+            job_details['job_id'] = job_id.replace('Job requisition id:', '').strip()
+        else:
+            job_details['job_id'] = ''
+
+        # Years of Experience
+        years_of_experience = response.xpath('//h3[contains(text(), "Years of experience:")]/text()').get()
+        if years_of_experience:
+            job_details['years_of_experience'] = years_of_experience.replace('Years of experience:', '').strip()
+        else:
+            job_details['years_of_experience'] = ''
+
+        # Job Link
+        job_link = response.xpath('//*[@id="overlay-content"]/p[2]/a/@href').get()
+        if job_link:
+            job_details['job_link'] = job_link.strip()
+        else:
+            job_details['job_link'] = ''
 
         # Print the job details to the console (for demonstration)
         print(f"Position: {job_details['position']}")
