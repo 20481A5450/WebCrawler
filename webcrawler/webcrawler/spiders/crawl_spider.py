@@ -2,14 +2,14 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import logging
-class CustomSpider(CrawlSpider):
-    name = "crawler"
-    allowed_domains = ["takeofftalent.com"]
-    start_urls = ["https://www.takeofftalent.com/"]
+# class CustomSpider(CrawlSpider):
+#     name = "crawler"
+#     allowed_domains = ["takeofftalent.com"]
+#     start_urls = ["https://www.takeofftalent.com/"]
 
-    rules = (
-        Rule(LinkExtractor(allow="2024/04")),
-    )
+#     rules = (
+#         Rule(LinkExtractor(allow="2024/04")),
+#     )
 
 class JobSpider(scrapy.Spider):
     name = "job_spider"
@@ -22,12 +22,16 @@ class JobSpider(scrapy.Spider):
         
         # Filter links that point to job detail pages
         for link in links:
-            if "2024/04" in link and link.endswith(".html"):
+            if "2024/05" in link and link.endswith(".html"):
                 # Follow each job listing link
                 yield response.follow(link, callback=self.parse_job_details)
 
     def parse_job_details(self, response):
+        # Initialize a dictionary to hold job details
         job_details = {}
+
+        # Scrape the required information from the job detail page using CSS or XPath selectors
+        # Position
         position = response.xpath('//h3[contains(text(), "Position:")]/text()').get()
         if position:
             job_details['position'] = position.replace('Position:', '').strip()
